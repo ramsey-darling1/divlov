@@ -1,0 +1,18 @@
+/**
+*css for slider on hihearts homepage.
+*/
+
+.banner {
+    position: relative;
+    overflow: auto;
+    max-width:670px;
+    max-height:370px;
+}
+
+.banner li {
+    list-style: none;
+}
+
+.banner ul li {
+    float: left;
+}

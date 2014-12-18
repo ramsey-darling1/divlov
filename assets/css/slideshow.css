@@ -1,0 +1,10 @@
+            .slides_container {
+                max-width:670px;
+                max-height:370px;
+            }
+            .slides_container div {
+                max-width:670px;
+                max-height:370px;
+                display:block;
+            }
+      
