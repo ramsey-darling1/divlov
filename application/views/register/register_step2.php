@@ -1,14 +1,18 @@
 
 <div id="signup">
-    <div class="">	
+<div class="row">
+    <div class="col s12">	
 	<p><strong>The DivLov community is excited to be getting a new member</strong></p>
 	
 	<p>Please tell us a little more about yourself, like how old you are and where you live, and what gender definition 
 		you use. The DivLov community is totally accepting and tolerant of all the different and wonderful ways 
 		people define their gender and sexuality. Signing up as a couple? That's fine too.</p>
     </div>
+</div>
 <div class="">
     <form method="post" action="/index.php/users/reg_step_3" class="form_style1">
+<div class="row">
+<div class="input-field col s12">
 		<select name="orientation" required>
 			<option value="">orientation</option>
 			<option value="straight">straight</option>
@@ -21,6 +25,10 @@
 			<option value="open">open</option>
             <option value="other">other</option>
 	    </select>
+</div>
+</div>
+<div class="row">
+<div class="input-field col s12">
 	    <select name="relationship_status" required>
 			<option value="">relationship status</option>
 			<option value="single">single</option>
@@ -31,6 +39,10 @@
 			<option value="open">open</option>
             <option value="other">other</option>
 	    </select>
+</div>
+</div>
+<div class="row">
+<div class="input-field col s12">
        <select name="age" required>
 			<option>age</option>
 			<?php 
@@ -41,8 +53,20 @@
 				}
 			?>
 		</select>
+</div>
+</div>
+<div class="row">
+<div class="input-field col s12">
 		<input type="text" name="state" placeholder="state (MI)" maxlength="2" required />
+</div>
+</div>
+<div class="row">
+<div class="input-field col s12">
 		<input type="text" name="city" placeholder="city" required />
+</div>
+</div>
+<div class="row">
+<div class="input-field col s12">
 		<select name="gender" required>
 			<option value="">gender</option>
 			<option value="male">male</option>
@@ -53,8 +77,11 @@
 			<option value="queer">queer</option>
 			<option value="other">other</option>
 		</select>
+</div>
+</div>
+<div class="row">
 		<input type="checkbox" name="couple" id="couple_checkbox" /><label for="couple">signing up as a couple</label>
-		<div class="brick"></div>
+</div>
 		<div class="dissapear" id="for_couples">
 			<div>
 				<!--for couples-->
@@ -92,7 +119,7 @@
 				</select>
 			</div>
 		</div>
-		<input type="submit" name="submit" value="continue" class="button btn_style1 m45"/>
+		<input type="submit" name="submit" value="continue" class="button btn_style1 m45 btn"/>
     </form>
 </div>
 <div class="brick"></div>

@@ -1,2 +1,6 @@
 assets/sass/.sass-cache/*
 node_modules/
+*.swp
+application/config/*
+application/config/database.php
+assets/bower_components/

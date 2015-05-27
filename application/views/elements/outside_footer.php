@@ -14,17 +14,10 @@
     </div>
 </div>
 </div><!--end class container-->
-	<script src="/assets/flatui/js/jquery-1.8.3.min.js"></script>
-    <script src="/assets/flatui/js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="/assets/flatui/js/jquery.ui.touch-punch.min.js"></script>
-    <script src="/assets/flatui/js/bootstrap.min.js"></script>
-    <script src="/assets/flatui/js/bootstrap-select.js"></script>
-    <script src="/assets/flatui/js/bootstrap-switch.js"></script>
-    <script src="/assets/flatui/js/flatui-checkbox.js"></script>
-    <script src="/assets/flatui/js/flatui-radio.js"></script>
-    <script src="/assets/flatui/js/jquery.tagsinput.js"></script>
-    <script src="/assets/flatui/js/jquery.placeholder.js"></script>
-	<script src="/assets/js/register.js"></script>
+	<!--<script src="/assets/js/register.js"></script>-->
+<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="/assets/bower_components/materialize/dist/js/materialize.min.js"></script>
 	<script>
 	$(document).ready(function(){
 		$('#couple_checkbox').click(function(){
@@ -35,8 +28,10 @@
 				$('#for_couples').slideUp();
 			}
 		});
+
+        $('select').material_select();
 		
 	});
-</script>
+    </script>
 </body>
 </html>

@@ -10,7 +10,7 @@
         <input placeholder="username" type="text" name="username" required="required" />
 	<input placeholder="email" type="email" name="email" required="required" />
 	<input placeholder="password" type="password" name="password" required="required" />
-	<input type="submit" name="submit" value="continue" class="button btn_style1 m45"/>
+	<input type="submit" name="submit" value="continue" class="button btn_style1 m45 btn"/>
     </form>
     
 <div class="brick"></div>

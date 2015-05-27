@@ -89,7 +89,7 @@
 			<option value="none">none of the above</option>
 		</select>
 		
-		<input type="submit" name="submit" value="continue" class="button btn_style1 m45"/>
+		<input type="submit" name="submit" value="continue" class="button btn_style1 m45 btn"/>
     </form>
 </div>
 <div class="brick"></div>

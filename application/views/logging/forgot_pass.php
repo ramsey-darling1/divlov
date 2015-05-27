@@ -9,7 +9,7 @@
 	<p>No problem! Simply enter the username that you used to create your account, and we will send you a link to reset your password.</p>
     <form method="post" action="/index.php/users/send_password_reset" class="form_style1">
         <input placeholder="username" type="text" name="username" required="required" />
-	    <input type="submit" name="submit" value="send link" class="button btn_style1"/>
+	    <input type="submit" name="submit" value="send link" class="button btn_style1 btn"/>
     </form>
     <p class="link_style2"><a href="/index.php/users/forgot_user">forgot your username?</a></p>
 </div>
