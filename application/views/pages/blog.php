@@ -45,7 +45,7 @@
         <form name="new_post" method="post" action="/index.php/blog/new_post" class="form_style1">
             <input name="title" type="text" placeholder="title"/>
             <textarea name="post" required="required" placeholder="post"></textarea>
-            <input type="submit" name="comment_action" value="Post" class="btn_style1"/>
+            <input type="submit" name="comment_action" value="Post" class="btn_style1 btn"/>
         </form>
     </div>
 </div>

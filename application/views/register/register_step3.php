@@ -1,15 +1,21 @@
 
 <div id="signup">
     <div class="">	
+<div class="row">
+    <div class="col s12">	
 	<p><strong>Last Step</strong></p>
 	<p>Here is your chance to define what it is you hope to discover on DivLov. We try to be as accommodating as 
 		possible to the vast spectrum of relationship styles and approaches. Whatever it is that you are looking for, 
 		be it a serious life long relationship, or a short lived fling, or anything in between, you can find it on 
 		DivLov.</p>
+</div>
+</div>
     </div>
 <div class="">
     
     <form method="post" action="/index.php/users/save_last_step" class="form_style1">
+<div class="row">
+    <div class="col s12">	
 		<select name="seekinggender" required>
 			<option value="">seeking gender</option>
 			<option value="male">males</option>
@@ -23,6 +29,10 @@
 			<option value="nomatter">gender doesn't matter</option>
 			<option value="other">other</option>
 		</select>
+</div>
+</div>
+<div class="row">
+    <div class="col s12">	
 		<select name="seekingorientation" required>
 			<option value="">seeking orientation</option>
 			<option value="straight">straight</option>
@@ -35,6 +45,10 @@
 			<option value="other">other</option>
 			<option value="nomatter">does not matter</option>
 		</select>
+</div>
+</div>
+<div class="row">
+    <div class="col s12">	
        <select name="seekingage" required>
 			<option>seeking ages</option>
 			<?php 
@@ -45,6 +59,10 @@
 				}
 			?>
 		</select>
+</div>
+</div>
+<div class="row">
+    <div class="col s12">	
 	    <select name="seekingage2" required>
 			<option>to</option>
 			<?php 
@@ -55,6 +73,10 @@
 				}
 			?>
 		</select>
+</div>
+</div>
+<div class="row">
+    <div class="col s12">	
 		<select name="seekingstatus" required>
 			<option value="">desired status</option>
 			<option value="single">single</option>
@@ -64,6 +86,10 @@
 			<option value="other">other</option>
 			<option value="nomatter">doesn't matter</option>
 		</select>
+</div>
+</div>
+<div class="row">
+    <div class="col s12">	
 		<select name="for" required>
 			<option value="">for</option>
 			<option value="longterm">long term</option>
@@ -77,6 +103,10 @@
 			<option value="other">other</option>
 			<option value="nomatter">let's see what happens</option>
 		</select>
+</div>
+</div>
+<div class="row">
+    <div class="col s12">	
 		<select name="alternatives">
 			<option value="">I am also into...</option>
 			<option value="threesomes">threesomes</option>
@@ -89,6 +119,8 @@
 			<option value="none">none of the above</option>
 		</select>
 		
+</div>
+</div>
 		<input type="submit" name="submit" value="continue" class="button btn_style1 m45 btn"/>
     </form>
 </div>
